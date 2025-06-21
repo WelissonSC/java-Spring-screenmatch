@@ -15,7 +15,7 @@ public class Main {
     private DataConvert convert = new DataConvert();
     private Scanner sc = new Scanner(System.in);
     private final String ADRESS = "https://www.omdbapi.com/?t=";
-    private final String APIKEY = "&apikey=be919000";
+    private final String APIKEY = System.getenv("OMDB-APIKEY");
     private List<SerieData> dataSerie = new ArrayList<>();
     private  List<Serie> series = new ArrayList<>();
 
