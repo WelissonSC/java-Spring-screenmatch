@@ -22,7 +22,9 @@ public enum Categoria {
                 return categoria;
             }
         }
-        throw new IllegalArgumentException("anyone category has been found for string disponibilized" + text);
+        throw new IllegalArgumentException("anyone category has been found for string disponq" +
+                "" +
+                "ibilized" + text);
     }
 
     public static Categoria fromStringPt(String text) {
